@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/************************* ABNNER SECTION CODE START ***************************/
+.banner-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #212B37;
+    display: flex;
+
+}
+
+.inner-section-width {
+    width: 33.33%;
+    height: 100%;
+}
+
+.inner-banner-section-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-banner-section-left-textbox {
+    padding: 0px 10%;
+}
+
+.inner-banner-section-left h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+span {
+    color: #FC8358;
+}
+
+.inner-banner-section-left h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    line-height: 50px;
+}
+
+.btn {
+    padding: 13px 50px;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #212B37;
+    border-radius: 10px;
+}
+
+/*  */
+
+.inner-banner-section-middle-imagebox img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/*  */
+
+.inner-banner-section-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-banner-section-right-textbox {
+    padding: 10px 10% 10px 5%;
+    border-left: 1px solid #fff;
+}
+
+.inner-banner-section-right-textbox p {
+    color: #fff;
+}
+
+.inner-banner-section-right-socialbox {
+    margin-top: 20px;
+}
+
+.inner-banner-section-right-socialbox ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+
+.inner-banner-section-right-socialbox ul li:first-child {
+    padding-left: 0px;
+}
+
+.inner-banner-section-right-socialbox ul li a {
+    color: #fff;
+    font-size: 12px;
+    transition: 0.6s;
+}
+
+.inner-banner-section-right-socialbox ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+
+
+
+/************************* ABNNER SECTION CODE END ***************************/
