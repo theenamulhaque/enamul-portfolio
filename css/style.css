@@ -133,7 +133,7 @@ span {
 
 .personal-section {
     width: 100%;
-    height: 20vh;
+    height: 40vh;
     background-color: #212B37;
     display: flex;
 }
@@ -160,12 +160,55 @@ span {
 /************************* ABOUT SECTION START ***************************/
 
 .about-section {
-    background-image: url();
     width: 100%;
     height: 100vh;
+    background-image: url(../image/about.jpg);
+    background-position: center center;
+    background-size: cover;
     background-color: #212B37;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-about-imagebox {
+    width: 50%;
+    padding: 0 10%;
+}
+
+.inner-about-imagebox img {
+    width: 90%;
+    
+}
+
+.inner-about-textbox {
+    width: 50%;
+    padding: 0 10%;
+}
+
+.inner-about-textbox h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
 
 }
+
+.inner-about-textbox p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.aboutbtn {
+    padding: 13px 50px;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #212B37;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
 
 /************************* ABOUT SECTION END ***************************/
