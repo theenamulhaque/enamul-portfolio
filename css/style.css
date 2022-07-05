@@ -14,7 +14,52 @@ a {
     text-decoration: none;
 }
 
-/************************* ABNNER SECTION CODE START ***************************/
+/************************* MENU SECTION CODE START ***************************/
+
+.menu-section {
+    width: 100%;
+    height: 10vh;
+    background-color: #212B37;
+    display: flex;
+    padding: 10px 0;
+}
+
+.inner-menu-logo {
+    width: 50%;
+    padding: 0 4%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.inner-menu-logo img {
+    width: 80px;
+}
+
+.inner-menu-item {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.inner-menu-item ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.inner-menu-item ul li a {
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+/************************* MENU SECTION CODE END ***************************/
+/************************* BANNER SECTION CODE START ***************************/
 .banner-section {
     width: 100%;
     height: 100vh;
@@ -72,7 +117,7 @@ span {
 
 .inner-banner-section-middle-imagebox img {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     object-fit: cover;
 }
 
@@ -281,7 +326,7 @@ span {
     width: 100%;
     height: 100vh;
     background-color: #212B37;
-    padding: 120px 0px; 
+    padding: 100px 0px; 
 }
 
 .project-head {
@@ -291,6 +336,7 @@ span {
 .project-head h1{
     color: #fff;
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .inner-project-section {
@@ -319,4 +365,61 @@ span {
 }
 
 /************************* PROJECT SECTION END *************************/
+
+/************************* HIRE SECTION START *************************/
+
+.hire-section {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../image/hirebg.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-hire-secton {
+    text-align: center;
+}
+
+.inner-hire-secton h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.hirebtn {
+    padding: 13px 50px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: rgb(255,128,89);
+    background: linear-gradient(29deg, rgba(255,128,89,1) 28%, rgba(85,190,219,1) 100%);
+}
+
+/************************* HIRE SECTION END *************************/
+
+/************************* FOOTER SECTION START *************************/
+
+.footer-section {
+    width: 100%;
+    height: 10vh;
+    background-color: #212B37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #FC8358;
+}
+
+.footer-section p{
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+/************************* FOOTER SECTION END *************************/
 
